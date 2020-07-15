@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productContainer >div {
+
+  text-align: center;
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 0 10px #463636;
+  margin: 10px;
+}
+
+
